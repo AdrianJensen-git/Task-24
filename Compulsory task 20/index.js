@@ -30,7 +30,7 @@ function save() {
     }
 }
 
-function save2() {
+function nextSave() {
     let value2 = document.getElementById("image1");
     localStorage.setItem("save2", value2);
 
